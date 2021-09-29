@@ -10,12 +10,12 @@ cat << EOF > ${DIR_TMP}/heroku.json
 {
     "inbounds": [{
         "port": ${PORT},
-        "protocol": "vmess",
+        "protocol": "vless",
         "settings": {
             "clients": [{
-                "id": "${ID}",
-                "alterId": ${AID}
-            }]
+                "id": "${ID}"
+            }],
+            "decryption": "none"
         },
         "streamSettings": {
             "network": "ws",
@@ -44,4 +44,3 @@ rm -rf ${DIR_TMP}
 
 # Run V2Ray
 ${DIR_RUNTIME}/v2ray -config=${DIR_CONFIG}/config.pb
-
