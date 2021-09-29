@@ -1,8 +1,10 @@
 # HerokuV2RayHeroku
+
 [![UUID](https://tonycn.000webhostapp.com/Deploy_to_Heroku.png)](https://dashboard.heroku.com/new?template=https://github.com/tony268pm/v2ray-heroku)
+
 **Heroku。**
 
-**若需部署 V2Ray VLESS，请转到 [vless](https://github.com/ssrv2ray/v2ray-heroku/tree/vless) 分支。**
+**若需部署 V2Ray VLESS，请转到 [vless](https://github.com/tony268pm/v2ray-heroku/tree/vless) 分支。**
 
 ## 概述
 
@@ -18,7 +20,7 @@
 
 | 变量 | 默认值 | 说明 |
 | :--- | :--- | :--- |
-| `ID` | `e34ea1ad-c5b9-4884-8717-3482afe6c33a` | VMess 用户主 ID，用于身份验证，为 UUID 格式 |
+| `ID` | `c4211789-1432-496f-bf1b-d48a39a91d35` | VMess 用户主 ID，用于身份验证，为 UUID 格式 |
 | `AID` | `64` | 为进一步防止被探测所设额外 ID，即 AlterID，范围为 0 至 65535 |
 | `WSPATH` | `/` | WebSocket 所使用的 HTTP 协议路径 |
 
@@ -34,6 +36,6 @@
 
 ## 注意
 
- 1. **请勿乱用本项目，类似 Heroku 的免费服务少之又少，且用且珍惜**
+ 1. **请勿懶用本项目，类似 Heroku 的免费服务少之又少，且用且珍惜**
  2. 若使用域名接入 CloudFlare，请考虑启用 TLS 1.3
  3. AWS 绝大部分 IPv4 地址已被 Twitter #屏#蔽
