@@ -1,10 +1,10 @@
-# HerokuV2RayHeroku
+# VLESS Heroku
 
-[![UUID](https://tonycn.000webhostapp.com/Deploy_to_Heroku.png)](https://dashboard.heroku.com/new?template=https://github.com/tony268pm/v2ray-heroku)
+[![UUID](https://tonycn.000webhostapp.com/Deploy_to_Heroku.png)](https://dashboard.heroku.com/new?template=https://github.com/tony268pm/v2ray-heroku/tree/vless)
 
 **Heroku。**
 
-**若需部署 V2Ray VLESS，请转到 [vless](https://github.com/tony268pm/v2ray-heroku/tree/vless) 分支。**
+**若需部署 V2Ray VMESS，请转到 [vmess](https://github.com/tony268pm/v2ray-heroku/) 分支。**
 
 ## 概述
 
@@ -12,7 +12,7 @@
 
 部署完成后，每次启动应用时，运行的 V2Ray 将始终为最新版本。
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/tony268pm/v2ray-heroku)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/tony268pm/v2ray-heroku/tree/vless)
 
 ## 部署
 
@@ -20,7 +20,7 @@
 
 | 变量 | 默认值 | 说明 |
 | :--- | :--- | :--- |
-| `ID` | `c4211789-1432-496f-bf1b-d48a39a91d35` | VMess 用户主 ID，用于身份验证，为 UUID 格式 |
+| `ID` | `c4211789-1432-496f-bf1b-d48a39a91d38` | VMess 用户主 ID，用于身份验证，为 UUID 格式 |
 | `AID` | `64` | 为进一步防止被探测所设额外 ID，即 AlterID，范围为 0 至 65535 |
 | `WSPATH` | `/` | WebSocket 所使用的 HTTP 协议路径 |
 
