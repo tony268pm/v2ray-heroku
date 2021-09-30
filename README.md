@@ -20,8 +20,7 @@
 
 | 变量 | 默认值 | 说明 |
 | :--- | :--- | :--- |
-| `ID` | `c4211789-1432-496f-bf1b-d48a39a91d38` | VMess 用户主 ID，用于身份验证，为 UUID 格式 |
-| `AID` | `64` | 为进一步防止被探测所设额外 ID，即 AlterID，范围为 0 至 65535 |
+| `ID` | `c4211789-1432-496f-bf1b-d48a39a91d38` | VLESS 用户 ID，用于身份验证，为 UUID 格式 |
 | `WSPATH` | `/` | WebSocket 所使用的 HTTP 协议路径 |
 
 [![UUID](https://tonycn.000webhostapp.com/UUID_to_Heroku.png)](https://www.uuidgenerator.net/)
